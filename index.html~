@@ -4,13 +4,14 @@
 <meta charset="UTF-8">
 <title>Eoghan McGinty's Website</title>
 	<link rel="stylesheet" href="css/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
-<div class="header">
-	<h1>Eoghan McGinty's online presence</h1>
+<div class="myHeader">
+	<p>Eoghan McGinty's online presence</p>
 </div>
+
 <div class="body-text">
 <p>How are you?</p>
 <p>I'm a 22 year old Digital Media Engineering graduate from Dublin, Ireland.</p>
@@ -31,7 +32,13 @@
 <audio id="audio3">
     <source src="sounds/Stop.m4a" type="audio/mpeg" />
 </audio>
-<img onclick="javascript:mouseClick(this)" onmouseover="javascript:mouseOver(this)" onmouseout="javascript:mouseOut(this)" src="images/Head1.png" id="head">
+
+
+<div class="head">
+	<img onclick="javascript:mouseClick(this)" onmouseover="javascript:mouseOver(this)" onmouseout="javascript:mouseOut(this)" src="images/Head1.png" id="head">
+</div>
+
 <script src="js/howiya.js"></script>
+
 </body>
 </html>
