@@ -16,8 +16,12 @@
 <p>How are you?</p>
 <p>I'm a 22 year old Digital Media Engineering graduate from Dublin, Ireland.</p>
 <p>I love music, cooking, volunteering, seeing the world, and using google to solve my problems.</p>
-<a href="https://ie.linkedin.com/in/eoghan-mcginty-50b30717
-"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+</div>
+<div align="center" class="contact">
+	<div align="right">email: eoghanm19@gmail.com
+	contact number: +353861779838</div>
+	<a href="https://ie.linkedin.com/in/eoghan-mcginty-50b30717
+	"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
 </div>
 
 <audio id="audio0">
