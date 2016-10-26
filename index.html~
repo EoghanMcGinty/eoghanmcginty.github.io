@@ -7,10 +7,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 </head>
-<body>
+<body onmousemove="javascript:mousePosition(event)">
 <div class="myHeader">
 	<p>Eoghan McGinty's online presence</p>
 </div>
+
+<div class="head" align="center">
+	<img onclick="javascript:mouseClick(this)" onmouseover="javascript:mouseOver(this)" onmouseout="javascript:mouseOut(this)" src="images/Head1.png" id="head">
+</div>
+
 
 <div class="body-text">
 <p>How are you?</p>
@@ -18,8 +23,6 @@
 <p>I love music, cooking, volunteering, seeing the world, and using google to solve my problems.</p>
 </div>
 <div align="center" class="contact">
-	<div align="right">email: eoghanm19@gmail.com
-	contact number: +353861779838</div>
 	<a href="https://ie.linkedin.com/in/eoghan-mcginty-50b30717
 	"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
 </div>
@@ -36,11 +39,6 @@
 <audio id="audio3">
     <source src="sounds/Stop.m4a" type="audio/mpeg" />
 </audio>
-
-
-<div class="head">
-	<img onclick="javascript:mouseClick(this)" onmouseover="javascript:mouseOver(this)" onmouseout="javascript:mouseOut(this)" src="images/Head1.png" id="head">
-</div>
 
 <script src="js/howiya.js"></script>
 

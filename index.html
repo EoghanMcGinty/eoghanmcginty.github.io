@@ -7,10 +7,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 </head>
-<body>
+<body onmousemove="javascript:mousePosition(event)">
 <div class="myHeader">
 	<p>Eoghan McGinty's online presence</p>
 </div>
+
+<div class="head">
+	<img onclick="javascript:mouseClick(this)" onmouseover="javascript:mouseOver(this)" onmouseout="javascript:mouseOut(this)" src="images/Head1.png" id="head">
+</div>
+
 
 <div class="body-text">
 <p>How are you?</p>
@@ -34,11 +39,6 @@
 <audio id="audio3">
     <source src="sounds/Stop.m4a" type="audio/mpeg" />
 </audio>
-
-
-<div class="head">
-	<img onclick="javascript:mouseClick(this)" onmouseover="javascript:mouseOver(this)" onmouseout="javascript:mouseOut(this)" src="images/Head1.png" id="head">
-</div>
 
 <script src="js/howiya.js"></script>
 
