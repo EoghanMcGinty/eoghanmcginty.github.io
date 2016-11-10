@@ -30,7 +30,7 @@ var j = 0;
 var clicked = 0;
 function mouseClick(Image) {
 	Image.src = img[j++];
-	if(j==img.length) j = 0;
+	if(j==5) j = 0;
 	audio[i++].play(); // audio will load and then play
 	if (i==audio.length) i = 0;
 	clicked = 1;
